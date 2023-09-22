@@ -3,7 +3,7 @@
 For this project, the ELT is performed with the support of Airflow and Kafka. Assume you are a data engineer at a data analytics consulting company. You have been assigned to a project that aims to de-congest the national highways by analyzing the road traffic data from different toll plazas. Each highway is operated by a different toll operator with different IT setup that use different file formats.
 In the first Hands-on lab your job is to collect data available in different formats and, consolidate it into a single file. As a vehicle passes a toll plaza, the vehicle's data like vehicle_id,vehicle_type,toll_plaza_id and timestamp are streamed to Kafka. In the second Hands-on lab your job is to create a data pipe line that collects the streaming data and loads it into a database.
 
-#Tasks and Solutions
+# Tasks and Solutions
 - Task 1.1: Define DAG arguments (2pts)
 
 ![01 dag_args](https://github.com/chaiyaS/IBM-ETL-and-Data-Pipelines-with-Shell-Airflow-and-Kafka/assets/142322529/2d795dcb-0e52-4ded-96e1-3c02a52fd8b6)
